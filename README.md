@@ -11,7 +11,7 @@ js/config.js          ← all IDs and keys go here
 js/main.js            forms, analytics, chat, video, ?src=flyer
 assets/               logo.svg, logo-on-dark.svg, favicon.svg, og-image.png, apple-touch-icon.png
 docs/                 brief, approved copy, email templates
-CNAME                 carrierforpizza.com
+CNAME                 (add back when switching DNS: one line "carrierforpizza.com")
 ```
 
 Preview locally: `python3 -m http.server 8000`, then open http://localhost:8000
@@ -36,7 +36,7 @@ The QR code should point to **https://carrierforpizza.com/?src=flyer**. This sen
 ## 3. Deploy on GitHub Pages
 
 1. Repo → Settings → Pages → Source: *Deploy from a branch*, then choose `main` / `/ (root)`.
-2. Custom domain: `carrierforpizza.com` (the CNAME file already sets this).
+2. For the preview, the site is at https://murad2026.github.io/pizzacarrier/. When switching DNS, add a `CNAME` file containing `carrierforpizza.com` and set Custom domain to the same.
 3. After DNS works, turn on **Enforce HTTPS**.
 
 ## 4. DNS at GoDaddy

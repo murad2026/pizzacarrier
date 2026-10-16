@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Test Drive Feedback — Pizza Carrier</title>
+<meta name="description" content="Share a short 2-minute feedback on your Pizza Carrier Test Drive and get 10% off your first order.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#2A498C">
+<link rel="icon" href="../assets/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="../assets/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@125,700;125,800&family=Barlow+Semi+Condensed:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="../" aria-label="Pizza Carrier — home">
+      <img class="brand-mark" src="../assets/logo.svg" alt="" width="44" height="43">
+      <span class="brand-word">Pizza<br>Carrier</span>
+    </a>
+  </div>
+</header>
+
+<main id="main" class="page-simple">
+  <div class="container narrow">
+    <h1>How did the Test Drive go?</h1>
+    <p class="intro">It takes about 2 minutes. Share your feedback and get 10% off your first order.</p>
+
+    <form class="form stack" id="feedback-form" novalidate>
+      <div class="field-grid">
+        <div class="field">
+          <label for="fb-pizzeria">Pizzeria name <span class="req" aria-hidden="true">*</span></label>
+          <input id="fb-pizzeria" name="pizzeria_name" type="text" autocomplete="organization" required>
+        </div>
+        <div class="field">
+          <label for="fb-email">Email <span class="req" aria-hidden="true">*</span></label>
+          <input id="fb-email" name="email" type="email" autocomplete="email" required>
+        </div>
+      </div>
+
+      <fieldset class="radio-row" data-required>
+        <legend>Did pizzas stay level? <span class="req" aria-hidden="true">*</span></legend>
+        <label class="radio-pill"><input type="radio" name="level" value="Yes"><span>Yes</span></label>
+        <label class="radio-pill"><input type="radio" name="level" value="Mostly"><span>Mostly</span></label>
+        <label class="radio-pill"><input type="radio" name="level" value="No"><span>No</span></label>
+      </fieldset>
+
+      <fieldset class="radio-row" data-required>
+        <legend>Was it easy for staff/customers? <span class="req" aria-hidden="true">*</span></legend>
+        <label class="radio-pill"><input type="radio" name="ease" value="1 (hard)"><span>1</span></label>
+        <label class="radio-pill"><input type="radio" name="ease" value="2"><span>2</span></label>
+        <label class="radio-pill"><input type="radio" name="ease" value="3"><span>3</span></label>
+        <label class="radio-pill"><input type="radio" name="ease" value="4"><span>4</span></label>
+        <label class="radio-pill"><input type="radio" name="ease" value="5 (very easy)"><span>5</span></label>
+        <div class="scale-hint" aria-hidden="true"><span>1 = hard</span><span>5 = very easy</span></div>
+      </fieldset>
+
+      <fieldset class="radio-row" data-required>
+        <legend>Will you order a case? <span class="req" aria-hidden="true">*</span></legend>
+        <label class="radio-pill"><input type="radio" name="order_intent" value="Yes"><span>Yes</span></label>
+        <label class="radio-pill"><input type="radio" name="order_intent" value="Maybe"><span>Maybe</span></label>
+        <label class="radio-pill"><input type="radio" name="order_intent" value="No"><span>No</span></label>
+      </fieldset>
+
+      <div class="field">
+        <label for="fb-comments">Comments <span class="optional">(optional)</span></label>
+        <textarea id="fb-comments" name="comments" rows="4"></textarea>
+      </div>
+
+      <div class="hp" aria-hidden="true"><label>Leave this empty <input type="text" name="website" tabindex="-1" autocomplete="off"></label></div>
+
+      <p class="form-error" id="feedback-error" role="alert" hidden>Something went wrong and your feedback wasn’t sent. Please try again, or email info@carrierforpizza.com.</p>
+      <button class="btn btn-primary btn-block" type="submit">Send feedback</button>
+    </form>
+
+    <div class="form-result" id="feedback-success" tabindex="-1" hidden>
+      <h2>Thank you for your feedback!</h2>
+      <p>We’ll get back to you to confirm your 10% discount on your first order.</p>
+    </div>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-legal">
+    <p>© <span id="year">2026</span> [COMPANY NAME] · <a href="../" style="color:#fff">carrierforpizza.com</a></p>
+  </div>
+</footer>
+
+<script src="../js/config.js"></script>
+<script src="../js/main.js"></script>
+</body>
+</html>

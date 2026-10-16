@@ -224,6 +224,6 @@ See [`feedback-reminder-email.txt`](feedback-reminder-email.txt).
 - [CONFIRM] "up to 4" vs 4–5 boxes in the table
 - [CONFIRM] payment method and how shipping cost is quoted
 - [CONFIRM] Test Drive and order shipping timing
-- [CONFIRM] whether the 10% applies to the whole first order or only the first case
+- Resolved: the 10% discount applies to the whole first order.
 - Video ("Video coming soon" until `VIDEO_URL` is set), 4 photo placeholders, and the Open Graph share image (a temporary one made from the logo)
 - Config placeholders in `js/config.js`: `WEB3FORMS_ACCESS_KEY`, `GA4_MEASUREMENT_ID`, `TAWK_PROPERTY_ID`, `TAWK_WIDGET_ID`, `VIDEO_URL`

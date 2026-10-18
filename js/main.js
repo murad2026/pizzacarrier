@@ -26,6 +26,31 @@
   }
   function track(name, data) {
     if (gaReady && typeof window.gtag === "function") window.gtag("event", name, data || {});
+    if (typeof window.clarity === "function") window.clarity("event", name);
+  }
+
+  /* ---------- Microsoft Clarity (session recordings, heatmaps) ---------- */
+  function loadClarity() {
+    if (!isSet(CFG.CLARITY_PROJECT_ID)) return;
+    window.clarity = window.clarity || function () {
+      (window.clarity.q = window.clarity.q || []).push(arguments);
+    };
+    var s = document.createElement("script");
+    s.async = true;
+    s.src = "https://www.clarity.ms/tag/" + encodeURIComponent(CFG.CLARITY_PROJECT_ID);
+    document.head.appendChild(s);
+    var src = new URLSearchParams(location.search).get("src");
+    if (src) window.clarity("set", "src", src); // filter recordings by "src = flyer"
+  }
+
+  /* ---------- Phone / email clicks ---------- */
+  function setupContactClicks() {
+    document.addEventListener("click", function (e) {
+      var a = e.target.closest && e.target.closest('a[href^="tel:"], a[href^="mailto:"]');
+      if (!a) return;
+      var isPhone = a.getAttribute("href").indexOf("tel:") === 0;
+      track(isPhone ? "phone_click" : "email_click", { link_location: a.closest("section, header, footer") ? (a.closest("section, header, footer").id || a.closest("section, header, footer").tagName.toLowerCase()) : "page" });
+    });
   }
 
   /* ---------- Live chat (Tawk.to) ---------- */
@@ -334,6 +359,8 @@
   if (year) year.textContent = String(new Date().getFullYear());
 
   loadGA();
+  loadClarity();
+  setupContactClicks();
   setupVideo();
   setupOrderForm();
   setupFeedbackForm();

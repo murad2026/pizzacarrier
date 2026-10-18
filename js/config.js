@@ -11,6 +11,9 @@ window.SITE_CONFIG = {
   // Google Analytics 4 measurement ID, e.g. "G-XXXXXXXXXX"
   GA4_MEASUREMENT_ID: "YOUR_GA4_MEASUREMENT_ID",
 
+  // Microsoft Clarity project ID (clarity.microsoft.com → Settings → Overview)
+  CLARITY_PROJECT_ID: "YOUR_CLARITY_PROJECT_ID",
+
   // Tawk.to live chat: from the widget embed code
   // https://embed.tawk.to/<PROPERTY_ID>/<WIDGET_ID>
   TAWK_PROPERTY_ID: "YOUR_TAWK_PROPERTY_ID",

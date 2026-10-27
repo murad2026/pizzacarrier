@@ -6,7 +6,7 @@
  */
 window.SITE_CONFIG = {
   // Web3Forms access key (web3forms.com, registered to info@carrierforpizza.com)
-  WEB3FORMS_ACCESS_KEY: "YOUR_WEB3FORMS_ACCESS_KEY",
+  WEB3FORMS_ACCESS_KEY: "3b8f7ce0-b965-4b10-b7ba-f9d6bf82cedb",
 
   // Google Analytics 4 measurement ID, e.g. "G-XXXXXXXXXX"
   GA4_MEASUREMENT_ID: "YOUR_GA4_MEASUREMENT_ID",

@@ -234,9 +234,28 @@
     document.querySelectorAll("a[data-mode]").forEach(function (a) {
       a.addEventListener("click", function () {
         var target = form.querySelector('input[name="mode"][value="' + a.getAttribute("data-mode") + '"]');
-        if (target && !success.hidden) return;
-        if (target) { target.checked = true; applyMode(target.value); }
+        if (!target) return;
+        if (!success.hidden) reopen();
+        target.checked = true;
+        applyMode(target.value);
       });
+    });
+
+    // After a successful send: show an empty form again (keeps the chosen mode)
+    function reopen() {
+      var m = mode();
+      form.reset();
+      form.querySelector('input[name="mode"][value="' + m + '"]').checked = true;
+      form.elements.src.value = SRC;
+      form.elements.page_url.value = window.location.href;
+      applyMode(m);
+      errorBox.hidden = true;
+      success.hidden = true;
+      form.hidden = false;
+    }
+    document.getElementById("order-again").addEventListener("click", function () {
+      reopen();
+      form.querySelector("input:not([type=hidden]):not([type=radio])").focus();
     });
 
     applyMode(mode());

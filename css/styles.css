@@ -275,6 +275,7 @@ p { margin: 0 0 1em; }
 .form-result { background: #fff; border-radius: var(--radius-lg); padding: 40px; text-align: center; border-top: 6px solid var(--orange); }
 .form-result h3 { font-size: 1.4rem; }
 .form-result p { margin: 0; color: var(--ink-soft); }
+.form-result .btn { margin-top: 24px; }
 
 /* ---------- FAQ ---------- */
 .faq-list details { border-bottom: 1px solid var(--line); }

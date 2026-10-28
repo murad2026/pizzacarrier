@@ -1,11 +1,10 @@
 # References ("Already in use" section)
 
 ## Dina's Pizza, Rockland, MA
-- Photos: `assets/references/dinas-pizza-1.jpg` … `-3.jpg` (resized, metadata stripped).
+- Photo: `assets/references/dinas-pizza-1.jpg` (the owner alone at the counter; resized, metadata stripped).
 - Status: **written consent pending.** Only verbal consent so far. Massachusetts (M.G.L. ch. 214 §3A)
   requires written consent to use a person's name or picture for advertising. Get it before
   carrierforpizza.com points to this site. If they decline, delete the section and the photos.
-- Photo 2 also shows a second person, and photo 3 has staff in the background. The consent should cover everyone in the photos.
 
 ### Message to send (one reply covers photos, name and quote)
 > Hi! Thank you again for trying Pizza Carrier. We'd love to feature Dina's Pizza (Rockland, MA)

@@ -192,6 +192,8 @@ p { margin: 0 0 1em; }
 @media (min-width: 768px) { .ref-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
 .ref-grid img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius-lg); }
 .ref-name { margin: 16px 0 0; color: var(--ink); }
+.ref-grid--single { max-width: 720px; }
+@media (min-width: 768px) { .ref-grid--single { grid-template-columns: 1fr; } }
 
 /* ---------- Features & specs ---------- */
 .features { background: var(--sky-soft); }

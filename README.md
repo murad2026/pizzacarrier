@@ -64,5 +64,5 @@ The header and favicon use `assets/logo.svg`. The footer uses `assets/logo-on-da
 
 - [COMPANY NAME] in the footer (`index.html`, `feedback/index.html`)
 - Video and 4 product photos (currently "Photo coming soon" placeholders)
-- "Up to 4" vs 4–5 boxes, payment method, shipping cost and timing (see `docs/copy-draft.md`)
+- Payment method, shipping cost and timing (see `docs/copy-draft.md`)
 - Final logo

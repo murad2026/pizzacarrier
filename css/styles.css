@@ -212,6 +212,10 @@ p { margin: 0 0 1em; }
 .size-table th, .size-table td { text-align: left; padding: 10px 12px; border-bottom: 1px solid var(--line); }
 .size-table th { font-family: var(--font-head); font-stretch: 125%; font-size: .9rem; color: var(--navy); text-transform: uppercase; letter-spacing: .04em; background: var(--sky-soft); }
 .size-table td:last-child { font-weight: 600; }
+.size-table td:last-child { white-space: nowrap; }
+.box-count { display: inline-block; min-width: 1.5em; }
+.box-icons { display: inline-flex; gap: 4px; vertical-align: middle; margin-left: 8px; }
+.box-ico { width: 16px; height: 16px; border-radius: 2px; background: var(--orange); }
 .note { margin: 12px 0 0; color: var(--ink-soft); font-size: 1rem; }
 
 /* ---------- Pricing ---------- */

@@ -227,3 +227,12 @@ See [`feedback-reminder-email.txt`](feedback-reminder-email.txt).
 - Resolved: the 10% discount applies to the whole first order.
 - Video ("Video coming soon" until `VIDEO_URL` is set), 4 photo placeholders, and the Open Graph share image (a temporary one made from the logo)
 - Config placeholders in `js/config.js`: `WEB3FORMS_ACCESS_KEY`, `GA4_MEASUREMENT_ID`, `TAWK_PROPERTY_ID`, `TAWK_WIDGET_ID`, `VIDEO_URL`
+
+---
+
+## Update 2026-10-28: aligned with the client's "Описание для сайта.docx" (sent 2026-10-06)
+- "Up to 5 pizza boxes" (headline, meta, FAQ). The table shows 5 for 8"–14" boxes, per the client's table.
+- The product is called a "bag" / "carry bag", as in the client's text. The "It is not a bag" line and FAQ item were removed.
+- Added: fits cake and pastry boxes; logo printing for orders of 60 cases or more; "easy for both your staff and your customers"; "strong HDPE that doesn't tear".
+- The box-size table now shows a row of box icons per size, like the client's reference.
+- Not added: the "References" block (needs real pizzeria names from the client); "Trade Continental Inc." (company name stays [COMPANY NAME] until confirmed).

@@ -16,8 +16,8 @@ window.SITE_CONFIG = {
 
   // Tawk.to live chat: from the widget embed code
   // https://embed.tawk.to/<PROPERTY_ID>/<WIDGET_ID>
-  TAWK_PROPERTY_ID: "YOUR_TAWK_PROPERTY_ID",
-  TAWK_WIDGET_ID: "YOUR_TAWK_WIDGET_ID",
+  TAWK_PROPERTY_ID: "6ae1dfbc3c2d1a34740b058e",
+  TAWK_WIDGET_ID: "1k6153u3p",
 
   // Hero video: a YouTube link (https://www.youtube.com/watch?v=...) or a
   // self-hosted MP4 path (e.g. "assets/video/pizza-carrier.mp4").

@@ -188,6 +188,10 @@ p { margin: 0 0 1em; }
   color: var(--ink-soft); font-weight: 600; font-size: 1rem; text-align: center; padding: 10px;
 }
 .photo-tile p { margin: 10px 0 0; font-weight: 600; color: var(--ink); }
+.ref-grid { list-style: none; margin: 0; padding: 0; display: grid; gap: 16px; grid-template-columns: 1fr; }
+@media (min-width: 768px) { .ref-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.ref-grid img { display: block; width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; border-radius: var(--radius-lg); }
+.ref-name { margin: 16px 0 0; color: var(--ink); }
 
 /* ---------- Features & specs ---------- */
 .features { background: var(--sky-soft); }

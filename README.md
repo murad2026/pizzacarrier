@@ -66,3 +66,4 @@ The header and favicon use `assets/logo.svg`. The footer uses `assets/logo-on-da
 - Video and 4 product photos (currently "Photo coming soon" placeholders)
 - Payment method, shipping cost and timing (see `docs/copy-draft.md`)
 - Final logo
+- Written consent from Dina's Pizza for the "Already in use" photos, plus their approved quote (see `docs/references.md`). Get it before the DNS switch.

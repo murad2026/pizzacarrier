@@ -19,3 +19,7 @@
 Not published until the owner approves the exact wording. Then paste it into the commented-out
 `<blockquote>` in the `#in-use` section of `index.html`. Do not write quotes for them: a testimonial
 must reflect what the customer actually said (FTC rules on endorsements and fake reviews).
+
+## Avon's Best Pizza & Grill, Avon, MA
+- Photo: `assets/references/avons-best-pizza-1.jpg` (four boxes in one bag at the counter; resized, metadata stripped).
+- Status: **written consent pending.** Send the same message as above, with "Avon's Best Pizza & Grill (Avon, MA)".

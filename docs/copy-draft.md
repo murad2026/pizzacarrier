@@ -236,3 +236,20 @@ See [`feedback-reminder-email.txt`](feedback-reminder-email.txt).
 - Added: fits cake and pastry boxes; logo printing for orders of 60 cases or more; "easy for both your staff and your customers"; "strong HDPE that doesn't tear".
 - The box-size table now shows a row of box icons per size, like the client's reference.
 - Not added: the "References" block (needs real pizzeria names from the client); "Trade Continental Inc." (company name stays [COMPANY NAME] until confirmed).
+
+---
+
+## Update 2026-11-03: client's edit list (Inna's email of 2026-11-03)
+- Hero: "Pizza pickup" / "Pizza box carry bag" / "Carry up to 4 pizza boxes with one hand." / "Our pizza carrying solution has a special design to carry boxes securely and perfectly leveled."
+- Max boxes is 4 everywhere (carrier 4 pizza). 8" × 8" removed from the table; 10"–15" show 4.
+- US Patent Pending: removed from the hero and specs; shown as an orange stamp (like the flyer) in "Built for pizza boxes"; kept in the footer.
+- Problem section: one box or four; carry in one hand, other hand free for doors and the car; "the counter".
+- Step art: real slot shape (teardrop slots, curved handle slits, fold line); step 3 shows 4 boxes. Repeated "9 seconds" callout removed.
+- "See it in action" photo placeholders removed (they repeated the steps).
+- Features: Quick to set up, Up to 4 boxes in one hand, Level and secure, Convenient ("Easy to use for both your staff and your customers"), Durable ("Strong material…"), Transparent ("Your boxes and your brand stay in full view").
+- Cake/pastry boxes and logo printing (60+ cases) moved into the main description.
+- Pricing: shipping $5.99 per order, ships within 48 hours; "Minimum order" removed.
+- "Already in use in Massachusetts" / "Local pizzerias use our bags for the takeout orders."
+- Company: Trade Continental Inc.
+- Fixes: hero background band no longer cuts through the text; "Number of cases" no longer shows in Test Drive mode; "us." no longer wraps alone; header button no longer wraps on phones.
+- Open: online payment, logo rework, button wording (kept "Get a Free Test Drive" / "Order a Case").

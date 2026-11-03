@@ -62,8 +62,7 @@ The header and favicon use `assets/logo.svg`. The footer uses `assets/logo-on-da
 
 ## 6. Waiting on the client
 
-- [COMPANY NAME] in the footer (`index.html`, `feedback/index.html`)
-- Video and 4 product photos (currently "Photo coming soon" placeholders)
-- Payment method, shipping cost and timing (see `docs/copy-draft.md`)
-- Final logo
+- Video (the "See it in action" photo placeholders were removed at the client's request; real photos go into "Already in use")
+- Online payment on the site (client asked for PayPal / Venmo; not in the phase 1 contract, to be discussed)
+- Final logo (client: current icon looks like a construction crane, rework it)
 - Written consent from Dina's Pizza and Avon's Best Pizza & Grill for the "Already in use" photos, plus their approved quote (see `docs/references.md`). Get it before the DNS switch.

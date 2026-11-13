@@ -85,6 +85,10 @@
       return;
     }
     label.textContent = "Watch the video";
+    if (isSet(CFG.VIDEO_POSTER)) {
+      play.style.backgroundImage = "url('" + CFG.VIDEO_POSTER + "')";
+      play.classList.add("has-poster");
+    }
     play.addEventListener("click", function () {
       var yt = youTubeId(url);
       var el;
@@ -100,6 +104,7 @@
         el.controls = true;
         el.autoplay = true;
         el.playsInline = true;
+        if (isSet(CFG.VIDEO_POSTER)) el.poster = CFG.VIDEO_POSTER;
         el.setAttribute("aria-label", "Setting up a Pizza Carrier");
       }
       frame.replaceChildren(el);

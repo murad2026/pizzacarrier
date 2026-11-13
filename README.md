@@ -26,7 +26,8 @@ Any value that still starts with `YOUR_` is treated as not configured, and that 
 | `GA4_MEASUREMENT_ID` | Google Analytics → Admin → Data streams → Web → `G-XXXXXXXXXX` |
 | `CLARITY_PROJECT_ID` | https://clarity.microsoft.com → sign in with info@carrierforpizza.com (Microsoft) → New project → URL carrierforpizza.com → Settings → Overview → Project ID. Gives session recordings and heatmaps; filter by custom tag `src = flyer`. |
 | `TAWK_PROPERTY_ID`, `TAWK_WIDGET_ID` | tawk.to → Administration → Chat Widget → the embed link `https://embed.tawk.to/<PROPERTY_ID>/<WIDGET_ID>` |
-| `VIDEO_URL` | A YouTube link (best to upload as Unlisted) or the path to an MP4 in `assets/video/`. Until this is set, the poster reads "Video coming soon". |
+| `VIDEO_URL` | A YouTube link (best to upload as Unlisted) or the path to an MP4 in `assets/video/`. Currently `assets/video/pizza-carrier.mp4` (the Wrong/Right video). |
+| `VIDEO_POSTER` | Still image shown before Play. Currently `assets/video/poster.jpg`. |
 
 GA4 (and Clarity) events: `test_drive_submit`, `order_submit`, `feedback_submit`, `flyer_visit`, `phone_click`, `email_click`.
 
@@ -62,7 +63,7 @@ The header and favicon use `assets/logo.svg`. The footer uses `assets/logo-on-da
 
 ## 6. Waiting on the client
 
-- Video (the "See it in action" photo placeholders were removed at the client's request; real photos go into "Already in use")
+- Car scenes for the video (current video: door scenes + end card); final logo on the end card
 - Online payment on the site (client asked for PayPal / Venmo; not in the phase 1 contract, to be discussed)
 - Final logo (client: current icon looks like a construction crane, rework it)
 - Written consent from Dina's Pizza and Avon's Best Pizza & Grill for the "Already in use" photos, plus their approved quote (see `docs/references.md`). Get it before the DNS switch.

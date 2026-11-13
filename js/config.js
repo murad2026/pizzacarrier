@@ -22,5 +22,8 @@ window.SITE_CONFIG = {
   // Hero video: a YouTube link (https://www.youtube.com/watch?v=...) or a
   // self-hosted MP4 path (e.g. "assets/video/pizza-carrier.mp4").
   // Leave as is to show the "Video coming soon" poster.
-  VIDEO_URL: "YOUR_VIDEO_URL"
+  VIDEO_URL: "assets/video/pizza-carrier.mp4",
+
+  // Still image shown on the video block before Play (optional)
+  VIDEO_POSTER: "assets/video/poster.jpg"
 };

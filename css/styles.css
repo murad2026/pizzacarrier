@@ -150,6 +150,11 @@ h1, h2 { text-wrap: balance; }
   color: #fff; border: 0; cursor: pointer; font: inherit;
 }
 .video-poster[aria-disabled="true"] { cursor: default; }
+.video-poster.has-poster { background-color: var(--navy); background-size: cover; background-position: center; justify-content: flex-end; padding-bottom: 22px; }
+.video-poster.has-poster::before { content: ""; position: absolute; inset: 0; background: rgba(20, 30, 60, .28); }
+.video-poster.has-poster > * { position: relative; }
+.video-poster.has-poster .video-poster-mark { display: none; }
+.video-poster.has-poster .video-play-icon { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 76px; height: 76px; }
 .video-poster-mark { width: clamp(72px, 12vw, 120px); height: auto; opacity: .95; }
 .video-play-icon {
   display: grid; place-items: center; width: 64px; height: 64px; border-radius: 50%;

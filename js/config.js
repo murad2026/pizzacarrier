@@ -20,10 +20,10 @@ window.SITE_CONFIG = {
   TAWK_WIDGET_ID: "1k6153u3p",
 
   // Hero video: a YouTube link (https://www.youtube.com/watch?v=...) or a
-  // self-hosted MP4 path (e.g. "assets/video/pizza-carrier.mp4").
+  // self-hosted MP4 path (e.g. "assets/video/pizza-carrier-v4.mp4").
   // Leave as is to show the "Video coming soon" poster.
-  VIDEO_URL: "assets/video/pizza-carrier.mp4",
+  VIDEO_URL: "assets/video/pizza-carrier-v4.mp4",
 
   // Still image shown on the video block before Play (optional)
-  VIDEO_POSTER: "assets/video/poster.jpg"
+  VIDEO_POSTER: "assets/video/poster-v4.jpg"
 };
